@@ -8,6 +8,15 @@ A simulation for F3 lens physics — interactive thin-lens study for **Hong Kong
 
 Share that link on WhatsApp — no download required.
 
+### If the link shows 404 (one-time setup)
+
+1. Open **Settings → Pages**: https://github.com/OrlandoBubble/convex-lens-sim/settings/pages  
+2. Under **Build and deployment**, set **Source** to **Deploy from a branch**  
+3. **Branch**: `gh-pages` → folder **`/ (root)`** → **Save**  
+4. Open **Actions** and re-run **Deploy to GitHub Pages** (or push any commit to `main`)
+
+Wait 1–2 minutes after a green workflow run, then refresh the live URL.
+
 ## What it shows
 
 - **Inputs**: focal length \(f\), object distance magnitude \(|u|\), object height \(h_o\)
